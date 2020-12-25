@@ -27,6 +27,6 @@ public class LayoutCodeActivity extends AppCompatActivity {
         mainLayout.addView(button1);
 
 
-        setContentView(R.layout.activity_main);
+        setContentView(mainLayout);
     }
 }
