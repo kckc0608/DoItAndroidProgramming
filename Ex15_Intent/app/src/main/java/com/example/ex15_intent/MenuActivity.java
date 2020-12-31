@@ -20,7 +20,7 @@ public class MenuActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent();
                 intent.putExtra("name", "mike");
-                setResult(Result_OK, intent);
+                setResult(RESULT_OK, intent);
                 finish();
             }
         });
