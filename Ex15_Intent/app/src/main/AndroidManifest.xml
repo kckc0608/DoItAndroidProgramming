@@ -9,6 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Ex15_Intent">
+        <activity
+            android:name=".MenuActivity"
+            android:label="메뉴 액티비티"
+            android:theme="@style/Theme.AppCompat.Dialog"
+            ></activity>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
